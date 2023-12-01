@@ -70,11 +70,11 @@ The Expense Tracker Django Project is a web application built with Django, desig
 
 
 ## Usage
-1.Visit http://localhost:8000/admin and log in with the superuser account created.
-2.Create categories for transactions (expenses and income).
-3..Navigate to http://localhost:8000 to access the Expense Tracker application.
-4.Log in with your superuser account or register a new account.
-5.Start adding and managing your expenses and income transactions.
+1. Visit http://localhost:8000/admin and log in with the superuser account created.
+2. Create categories for transactions (expenses and income).
+3. Navigate to http://localhost:8000 to access the Expense Tracker application.
+4. Log in with your superuser account or register a new account.
+5. Start adding and managing your expenses and income transactions.
 
 
 
