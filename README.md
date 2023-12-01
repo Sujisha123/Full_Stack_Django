@@ -1,6 +1,6 @@
 # Expense Tracker Django Project
 
-Expense Tracker
+![Expense Tracker](/path/to/your/project/image.png)
 
 > A Django web application for tracking expenses and income.
 
