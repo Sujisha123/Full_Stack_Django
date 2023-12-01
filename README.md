@@ -1,6 +1,6 @@
 # Expense Tracker Django Project
 
-![Expense Tracker](/path/to/your/project/image.png)
+
 
 > A Django web application for tracking expenses and income.
 
@@ -42,3 +42,6 @@ The Expense Tracker Django Project is a web application built with Django, desig
 
    ```bash
    git clone https://github.com/your-username/expense-tracker-django.git
+```bash
+   cd expense-tracker-django
+
