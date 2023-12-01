@@ -11,11 +11,6 @@
 - [Technologies Used](#technologies-used)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Database Models](#database-models)
-  - [Expense Model](#expense-model)
-  - [Income Model](#income-model)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Description
 
@@ -41,7 +36,45 @@ The Expense Tracker Django Project is a web application built with Django, desig
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/your-username/expense-tracker-django.git
-```bash
+   git clone https://github.com/Sujisha123/Full_Stack_Django.git
+
+2. **Change into the project directory:**
+
+   ```bash
    cd expense-tracker-django
+
+3. **Create a virtual environment:**
+
+   ```bash
+   python -m venv venv
+
+4. **Activate the virtual environment:**
+   
+   ```bash
+   venv\Scripts\activate
+
+5. **Apply database migrations:**
+
+   ```bash
+   python manage.py migrate
+
+6. **Create a superuser account:**
+
+   ```bash
+   python manage.py createsuperuser
+
+7. **Start the development server:**
+
+   ```bash
+   python manage.py runserver
+
+
+## Usage
+1.Visit http://localhost:8000/admin and log in with the superuser account created.
+2.Create categories for transactions (expenses and income).
+3..Navigate to http://localhost:8000 to access the Expense Tracker application.
+4.Log in with your superuser account or register a new account.
+5.Start adding and managing your expenses and income transactions.
+
+
 
