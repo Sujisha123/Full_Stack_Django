@@ -57,16 +57,17 @@ The Expense Tracker Django Project is a web application built with Django, desig
 
    ```bash
    python manage.py makemigrations
-   
+
+6.   
    ```bash
    python manage.py migrate
 
-6. **Create a superuser account:**
+7. **Create a superuser account:**
 
    ```bash
    python manage.py createsuperuser
 
-7. **Start the development server:**
+8. **Start the development server:**
 
    ```bash
    python manage.py runserver
