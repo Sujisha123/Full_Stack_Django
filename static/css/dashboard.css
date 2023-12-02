@@ -1,0 +1,130 @@
+.ds-main-div {
+    position: relative;
+    top: 100px;
+}
+
+.table-title{
+  text-align: center;
+  font-size: large;
+  position: relative;
+  left: 400px;
+  bottom: 200px;
+  
+  
+}
+.dashboard-table{
+  width: 70.5%;
+  position: relative;
+  left: 480px;
+  bottom: 180px;
+
+}  
+.dashboard-title{
+  position: relative;
+  left: 1380px;
+} 
+.card1 {
+width: 300px;
+background-color: #fff;
+border-radius: 8px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+overflow: hidden;
+transition: transform 0.2s ease-in-out;
+position: relative;
+left: 400px;
+top: 50%;
+
+} 
+
+.card1:hover {
+transform: scale(1.05);
+}
+
+.card1-header {
+background-color:blue;
+color: #fff;
+padding: 15px;
+text-align: center;
+font-weight: bold;
+font-size: larger;
+}
+
+.card1-content {
+padding: 8px;
+text-align: center;
+font-weight: bold;
+font-size:x-large;
+background-color:thistle;
+
+}
+.card2 {
+width: 300px;
+background-color: #fff;
+border-radius: 8px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+overflow: hidden;
+transition: transform 0.2s ease-in-out;
+position: relative;
+left: 400px;
+top: 40%;
+
+} 
+
+.card2:hover {
+transform: scale(1.05);
+}
+
+.card2-header {
+background-color:darkgreen;
+color: #fff;
+padding: 15px;
+text-align: center;
+font-weight: bold;
+font-size: larger;
+}
+
+.card2-content {
+padding: 8px;
+text-align: center;
+font-weight: bold;
+font-size:x-large;
+background-color:thistle;
+
+}
+.card3 {
+width: 300px;
+background-color: #fff;
+border-radius: 8px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+overflow: hidden;
+transition: transform 0.2s ease-in-out;
+position: relative;
+left: 400px;
+top: 30%;
+
+} 
+
+.card3:hover {
+transform: scale(1.05);
+}
+
+.card3-header {
+background-color:darkred;
+color: #fff;
+padding: 15px;
+text-align: center;
+font-weight: bold;
+font-size: larger;
+}
+
+.card3-content {
+padding: 8px;
+text-align: center;
+font-weight: bold;
+font-size:x-large;
+background-color:thistle;
+
+}
+
+
+

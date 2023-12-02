@@ -1,0 +1,71 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<div class="title">
+
+    <h1 class="title-text">Expenses</h1>
+
+</div>
+
+<div class="card">
+    <div class="card-header">
+      Total Expense
+    </div>
+    <div class="card-content">
+      <p> {{ total_expense }}</p>
+    </div>
+</div> 
+
+<div class="menu-content">
+    <div class="menu-sub-content">
+        <div class="buttons-division">
+            <a href="/expense/add/">
+                <button class="add-button">+ Add Expenses</button>
+            </a>
+        </div>
+    </div>
+</div>
+
+<div>
+    <table>
+        <thead>
+            <tr>
+                <th>Category</th>
+                <th>Amount</th>
+                <th>Date</th>
+                <th>Update Data</th>
+                <th>Delete Data</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for expense in expense_data %}
+
+            <tr>
+                <td>{{expense.category}}</td>
+                <td>{{expense.amount}}</td>
+                <td>{{expense.date}}</td>
+                <td>
+                    <div class="editing-division">
+                        <a class="editing-buttons" href="{% url 'expense_update' expense.id %}">
+                            <button class="update-button">Update</button>
+                        </a>
+                    </div>
+                    
+                </td>
+                <td>
+                    <div class="editing-division">
+                        
+                        <a class="editing-buttons" href="{% url 'expense_delete' expense.id %}">
+                            <button class="delete-button">Delete</button>
+                        </a>
+                    </div>
+                </td>
+            </tr>
+
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
+
+{% endblock %}

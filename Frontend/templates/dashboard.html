@@ -1,0 +1,55 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<div class="dashboard-title">
+  <h3><i class="uil uil-user-circle"></i>Hi {{username}}!</h3>
+</div>    
+       
+<div class="card1">
+    <div class="card1-header">
+      Total Balance
+    </div>
+    <div class="card1-content">
+      <p> {{ total_balance }}</p>
+    </div>
+</div> 
+
+<div class="card2">
+    <div class="card2-header">
+      Total Income
+    </div>
+    <div class="card2-content">
+      <p> {{ total_income }}</p>
+    </div>
+</div> 
+
+<div class="card3">
+    <div class="card3-header">
+      Total Expense
+    </div>
+    <div class="card3-content">
+      <p> {{ total_expense }}</p>
+    </div>
+</div> 
+
+<div class="table-title">
+    <h1>Recent Income and Expense History</h1>
+</div>
+
+<div class="dashboard-table">
+    <table>
+    
+        {% for record in combined_history %}
+        <tr>
+            <td>{{ record.date }}</td>
+            <td>{{ record.category }}</td>
+            <td>{{ record.amount }}</td>
+        </tr>
+        {% endfor %}
+    
+    </table>
+
+</div>
+ 
+{% endblock %}  
