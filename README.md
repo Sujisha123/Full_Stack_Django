@@ -36,7 +36,7 @@ The Expense Tracker Django Project is a web application built with Django, desig
 1. **Clone the repository:**
 
    ```bash
-    https://github.com/Sujisha123/Full_Stack_Django/
+    https://github.com/Sujisha123/Full_Stack_Django
 
 2. **Change into the project directory:**
 
