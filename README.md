@@ -36,26 +36,27 @@ The Expense Tracker Django Project is a web application built with Django, desig
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/Sujisha123/Full_Stack_Django.git
+    https://github.com/Sujisha123/Full_Stack_Django/
 
 2. **Change into the project directory:**
 
    ```bash
-   cd expense-tracker-django
+   cd Full_Stack_Django
 
 3. **Create a virtual environment:**
 
    ```bash
-   python -m venv venv
+   py -3 -m venv .venv
 
 4. **Activate the virtual environment:**
    
    ```bash
-   venv\Scripts\activate
+   .venv/scripts/activate
 
 5. **Apply database migrations:**
 
    ```bash
+   python manage.py makemigrations
    python manage.py migrate
 
 6. **Create a superuser account:**
